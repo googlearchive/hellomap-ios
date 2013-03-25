@@ -1,11 +1,3 @@
-//
-//  HMViewController.m
-//  HelloMap
-//
-//  Created by Mano Marks on 3/22/13.
-//  Copyright (c) 2013 Google. All rights reserved.
-//
-
 #import "HMViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 
