@@ -25,12 +25,12 @@
 		8156743E16FCE5AD00FC6CAE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156743D16FCE5AD00FC6CAE /* CoreText.framework */; };
 		8156744016FCE5B600FC6CAE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156743F16FCE5B600FC6CAE /* ImageIO.framework */; };
 		8156744216FCE5C300FC6CAE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156744116FCE5C300FC6CAE /* libicucore.dylib */; };
-		8156744416FCE5CF00FC6CAE /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156744316FCE5CF00FC6CAE /* libstdc++.dylib */; };
 		8156744616FCE5D700FC6CAE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156744516FCE5D700FC6CAE /* libz.dylib */; };
 		8156744816FCE5E100FC6CAE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156744716FCE5E100FC6CAE /* OpenGLES.framework */; };
 		8156744A16FCE5E900FC6CAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156744916FCE5E900FC6CAE /* QuartzCore.framework */; };
 		8156744C16FCE5F100FC6CAE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156744B16FCE5F100FC6CAE /* SystemConfiguration.framework */; };
 		8156745416FD01BB00FC6CAE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156745316FD01BB00FC6CAE /* GLKit.framework */; };
+		81FB3D8717010E0B0082E9ED /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB3D8617010E0B0082E9ED /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +63,7 @@
 		8156744916FCE5E900FC6CAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8156744B16FCE5F100FC6CAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8156745316FD01BB00FC6CAE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		81FB3D8617010E0B0082E9ED /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +71,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FB3D8717010E0B0082E9ED /* libc++.dylib in Frameworks */,
 				8156745416FD01BB00FC6CAE /* GLKit.framework in Frameworks */,
 				8156744C16FCE5F100FC6CAE /* SystemConfiguration.framework in Frameworks */,
 				8156744A16FCE5E900FC6CAE /* QuartzCore.framework in Frameworks */,
 				8156744816FCE5E100FC6CAE /* OpenGLES.framework in Frameworks */,
 				8156744616FCE5D700FC6CAE /* libz.dylib in Frameworks */,
-				8156744416FCE5CF00FC6CAE /* libstdc++.dylib in Frameworks */,
 				8156744216FCE5C300FC6CAE /* libicucore.dylib in Frameworks */,
 				8156744016FCE5B600FC6CAE /* ImageIO.framework in Frameworks */,
 				8156743E16FCE5AD00FC6CAE /* CoreText.framework in Frameworks */,
@@ -94,6 +95,7 @@
 		8156740516FCE55300FC6CAE = {
 			isa = PBXGroup;
 			children = (
+				81FB3D8617010E0B0082E9ED /* libc++.dylib */,
 				8156745316FD01BB00FC6CAE /* GLKit.framework */,
 				8156744B16FCE5F100FC6CAE /* SystemConfiguration.framework */,
 				8156744916FCE5E900FC6CAE /* QuartzCore.framework */,
