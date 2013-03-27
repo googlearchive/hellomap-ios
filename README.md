@@ -3,10 +3,10 @@ A quick way to get started with the [Google Maps SDK for iOS](https://developers
 # TOC
   * [Requirements](#requirements)
   * [Steps to get started](#steps-to-get-started)
-  * [Open project](#open-project)
-  * [Add your API key](add-your-api-key)
-  * [Add the SDK](add-the-sdk)
-  * [Run the simulator](run-the-simulator)
+    * [Open project](#open-project)
+    * [Add your API key](#add-your-api-key)
+    * [Add the SDK](#add-the-sdk)
+    * [Run the simulator](#run-the-simulator)
 
 
 # Requirements
