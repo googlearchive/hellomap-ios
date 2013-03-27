@@ -11,9 +11,9 @@ A quick way to get started with the [Google Maps SDK for iOS](https://developers
 
 # Requirements
 
-Latest version of XCode - download from https://developer.apple.com/xcode/.
+* Latest version of XCode - download from https://developer.apple.com/xcode/.
 
-The Google Maps SDK for iOS - download from https://developers.google.com/maps/documentation/ios/start.
+* The Google Maps SDK for iOS - download from https://developers.google.com/maps/documentation/ios/start.
 
 # Steps to get started
 ## Open project
@@ -26,10 +26,10 @@ The Google Maps SDK for iOS - download from https://developers.google.com/maps/d
 
         [GMSServices provideAPIKey:@"YOUR_API_KEY"];
 
-  replace YOUR_API_KEY with your key.
+  replace YOUR\_API\_KEY with your key.
 
 ## Add the SDK
-following these directions: https://developers.google.com/maps/documentation/ios/start#adding_the_google_maps_sdk_for_ios_to_your_project.
+* Follow [these directions](https://developers.google.com/maps/documentation/ios/start#adding_the_google_maps_sdk_for_ios_to_your_project.)
 
 ## Run the simulator
-Click on the Run button.
+* Click on the Run button.
