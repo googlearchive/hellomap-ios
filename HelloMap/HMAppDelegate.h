@@ -5,7 +5,6 @@
 @interface HMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) HMViewController *viewController;
 
 @end
