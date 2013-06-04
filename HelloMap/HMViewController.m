@@ -2,37 +2,30 @@
 #import <GoogleMaps/GoogleMaps.h>
 
 @interface HMViewController () {
-    //create the mapView object
-    GMSMapView *mapView_;
-    
+  GMSMapView *mapView_;
 }
 
 @end
 
 @implementation HMViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+  [super viewDidLoad];
+
+  // Position the camera at 0,0 and zoom level 1.
+  GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:0.0
+                                                          longitude:0.0
+                                                               zoom:1];
+
+  // Create the GMSMapView with the camera position.
+  mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+
+  // Set the controller view to be the MapView. 
+  self.view = mapView_;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)didReceiveMemoryWarning {
+  [super didReceiveMemoryWarning];
 }
 
-- (void)loadView
-{
-    //position the camera at 0,0
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:0.0                                                            longitude:0.0                                                                 zoom:1];
-
-    //create the GMSMapView with the camera position
-    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-    mapView_.myLocationEnabled = YES;
-    
-    //set the view of the object at 
-    self.view = mapView_;
-}
 @end
