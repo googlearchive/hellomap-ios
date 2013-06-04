@@ -17,8 +17,6 @@
 		8156742616FCE55300FC6CAE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8156742516FCE55300FC6CAE /* Default@2x.png */; };
 		8156742816FCE55300FC6CAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8156742716FCE55300FC6CAE /* Default-568h@2x.png */; };
 		8156742B16FCE55300FC6CAE /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8156742A16FCE55300FC6CAE /* HMViewController.m */; };
-		8156742E16FCE55300FC6CAE /* HMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8156742C16FCE55300FC6CAE /* HMViewController_iPhone.xib */; };
-		8156743116FCE55300FC6CAE /* HMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8156742F16FCE55300FC6CAE /* HMViewController_iPad.xib */; };
 		8156743816FCE58F00FC6CAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156743716FCE58F00FC6CAE /* AVFoundation.framework */; };
 		8156743A16FCE59900FC6CAE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156743916FCE59900FC6CAE /* CoreData.framework */; };
 		8156743C16FCE5A200FC6CAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8156743B16FCE5A200FC6CAE /* CoreLocation.framework */; };
@@ -139,8 +137,6 @@
 				8156742116FCE55300FC6CAE /* HMAppDelegate.m */,
 				8156742916FCE55300FC6CAE /* HMViewController.h */,
 				8156742A16FCE55300FC6CAE /* HMViewController.m */,
-				8156742C16FCE55300FC6CAE /* HMViewController_iPhone.xib */,
-				8156742F16FCE55300FC6CAE /* HMViewController_iPad.xib */,
 				8156741816FCE55300FC6CAE /* Supporting Files */,
 			);
 			path = HelloMap;
@@ -216,8 +212,6 @@
 				8156742416FCE55300FC6CAE /* Default.png in Resources */,
 				8156742616FCE55300FC6CAE /* Default@2x.png in Resources */,
 				8156742816FCE55300FC6CAE /* Default-568h@2x.png in Resources */,
-				8156742E16FCE55300FC6CAE /* HMViewController_iPhone.xib in Resources */,
-				8156743116FCE55300FC6CAE /* HMViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,22 +237,6 @@
 				8156741B16FCE55300FC6CAE /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8156742C16FCE55300FC6CAE /* HMViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8156742D16FCE55300FC6CAE /* en */,
-			);
-			name = HMViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		8156742F16FCE55300FC6CAE /* HMViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8156743016FCE55300FC6CAE /* en */,
-			);
-			name = HMViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
