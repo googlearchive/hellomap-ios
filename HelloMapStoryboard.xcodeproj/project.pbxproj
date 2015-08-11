@@ -7,375 +7,361 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63787273175DC8C200AA3C91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63787272175DC8C200AA3C91 /* UIKit.framework */; };
-		63787275175DC8C200AA3C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63787274175DC8C200AA3C91 /* Foundation.framework */; };
-		63787277175DC8C200AA3C91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63787276175DC8C200AA3C91 /* CoreGraphics.framework */; };
-		6378727D175DC8C200AA3C91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6378727B175DC8C200AA3C91 /* InfoPlist.strings */; };
-		6378727F175DC8C200AA3C91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378727E175DC8C200AA3C91 /* main.m */; };
-		63787283175DC8C200AA3C91 /* HMSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63787282175DC8C200AA3C91 /* HMSBAppDelegate.m */; };
-		63787285175DC8C200AA3C91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63787284175DC8C200AA3C91 /* Default.png */; };
-		63787287175DC8C200AA3C91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63787286175DC8C200AA3C91 /* Default@2x.png */; };
-		63787289175DC8C200AA3C91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63787288175DC8C200AA3C91 /* Default-568h@2x.png */; };
-		6378728C175DC8C200AA3C91 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6378728A175DC8C200AA3C91 /* MainStoryboard_iPhone.storyboard */; };
-		6378728F175DC8C200AA3C91 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6378728D175DC8C200AA3C91 /* MainStoryboard_iPad.storyboard */; };
-		63787292175DC8C200AA3C91 /* HMSBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63787291175DC8C200AA3C91 /* HMSBViewController.m */; };
-		63787299175ECF5500AA3C91 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63787298175ECF5500AA3C91 /* AVFoundation.framework */; };
-		6378729D175ECF7400AA3C91 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378729A175ECF7400AA3C91 /* CoreData.framework */; };
-		6378729E175ECF7400AA3C91 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378729B175ECF7400AA3C91 /* CoreLocation.framework */; };
-		6378729F175ECF7400AA3C91 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378729C175ECF7400AA3C91 /* CoreText.framework */; };
-		637872A1175ECF7A00AA3C91 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872A0175ECF7A00AA3C91 /* GLKit.framework */; };
-		637872A3175ECF8000AA3C91 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872A2175ECF8000AA3C91 /* ImageIO.framework */; };
-		637872A5175ECF8700AA3C91 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872A4175ECF8700AA3C91 /* libc++.dylib */; };
-		637872A7175ECF9000AA3C91 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872A6175ECF9000AA3C91 /* libicucore.dylib */; };
-		637872A9175ECF9600AA3C91 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872A8175ECF9600AA3C91 /* libz.dylib */; };
-		637872AB175ECF9D00AA3C91 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872AA175ECF9D00AA3C91 /* OpenGLES.framework */; };
-		637872AD175ECFA200AA3C91 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872AC175ECFA200AA3C91 /* QuartzCore.framework */; };
-		637872AF175ECFA900AA3C91 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637872AE175ECFA900AA3C91 /* SystemConfiguration.framework */; };
+		AA9A0EA51B7987500028C9C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A0EA41B7987500028C9C9 /* main.m */; };
+		AA9A0EA81B7987500028C9C9 /* HMSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A0EA71B7987500028C9C9 /* HMSBAppDelegate.m */; };
+		AA9A0EAB1B7987500028C9C9 /* HMSBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A0EAA1B7987500028C9C9 /* HMSBViewController.m */; };
+		AA9A0EAE1B7987500028C9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9A0EAC1B7987500028C9C9 /* Main.storyboard */; };
+		AA9A0EB01B7987500028C9C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9A0EAF1B7987500028C9C9 /* Images.xcassets */; };
+		AA9A0EB31B7987500028C9C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9A0EB11B7987500028C9C9 /* LaunchScreen.xib */; };
+		F54507B1A0F8BDA060D7C90F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BE4F6BB488D58CDAA37E11 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6378726F175DC8C200AA3C91 /* HelloMapStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMapStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63787272175DC8C200AA3C91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		63787274175DC8C200AA3C91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		63787276175DC8C200AA3C91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6378727A175DC8C200AA3C91 /* HelloMapStoryboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMapStoryboard-Info.plist"; sourceTree = "<group>"; };
-		6378727C175DC8C200AA3C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6378727E175DC8C200AA3C91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63787280175DC8C200AA3C91 /* HelloMapStoryboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMapStoryboard-Prefix.pch"; sourceTree = "<group>"; };
-		63787281175DC8C200AA3C91 /* HMSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSBAppDelegate.h; sourceTree = "<group>"; };
-		63787282175DC8C200AA3C91 /* HMSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSBAppDelegate.m; sourceTree = "<group>"; };
-		63787284175DC8C200AA3C91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		63787286175DC8C200AA3C91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		63787288175DC8C200AA3C91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6378728B175DC8C200AA3C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		6378728E175DC8C200AA3C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		63787290175DC8C200AA3C91 /* HMSBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSBViewController.h; sourceTree = "<group>"; };
-		63787291175DC8C200AA3C91 /* HMSBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSBViewController.m; sourceTree = "<group>"; };
-		63787298175ECF5500AA3C91 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6378729A175ECF7400AA3C91 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		6378729B175ECF7400AA3C91 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		6378729C175ECF7400AA3C91 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		637872A0175ECF7A00AA3C91 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		637872A2175ECF8000AA3C91 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		637872A4175ECF8700AA3C91 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		637872A6175ECF9000AA3C91 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		637872A8175ECF9600AA3C91 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		637872AA175ECF9D00AA3C91 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		637872AC175ECFA200AA3C91 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		637872AE175ECFA900AA3C91 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		94BE4F6BB488D58CDAA37E11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2BDB243B140CE2ED1ABC72 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9A0E9F1B7987500028C9C9 /* HelloMapStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMapStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9A0EA31B7987500028C9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9A0EA41B7987500028C9C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA9A0EA61B7987500028C9C9 /* HMSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSBAppDelegate.h; sourceTree = "<group>"; };
+		AA9A0EA71B7987500028C9C9 /* HMSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSBAppDelegate.m; sourceTree = "<group>"; };
+		AA9A0EA91B7987500028C9C9 /* HMSBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSBViewController.h; sourceTree = "<group>"; };
+		AA9A0EAA1B7987500028C9C9 /* HMSBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSBViewController.m; sourceTree = "<group>"; };
+		AA9A0EAD1B7987500028C9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9A0EAF1B7987500028C9C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA9A0EB21B7987500028C9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8F1B613DAA9EBF4E7CD3237 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6378726C175DC8C200AA3C91 /* Frameworks */ = {
+		AA9A0E9C1B7987500028C9C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637872AF175ECFA900AA3C91 /* SystemConfiguration.framework in Frameworks */,
-				637872AD175ECFA200AA3C91 /* QuartzCore.framework in Frameworks */,
-				637872AB175ECF9D00AA3C91 /* OpenGLES.framework in Frameworks */,
-				637872A9175ECF9600AA3C91 /* libz.dylib in Frameworks */,
-				637872A7175ECF9000AA3C91 /* libicucore.dylib in Frameworks */,
-				637872A5175ECF8700AA3C91 /* libc++.dylib in Frameworks */,
-				637872A3175ECF8000AA3C91 /* ImageIO.framework in Frameworks */,
-				637872A1175ECF7A00AA3C91 /* GLKit.framework in Frameworks */,
-				6378729D175ECF7400AA3C91 /* CoreData.framework in Frameworks */,
-				6378729E175ECF7400AA3C91 /* CoreLocation.framework in Frameworks */,
-				6378729F175ECF7400AA3C91 /* CoreText.framework in Frameworks */,
-				63787299175ECF5500AA3C91 /* AVFoundation.framework in Frameworks */,
-				63787273175DC8C200AA3C91 /* UIKit.framework in Frameworks */,
-				63787275175DC8C200AA3C91 /* Foundation.framework in Frameworks */,
-				63787277175DC8C200AA3C91 /* CoreGraphics.framework in Frameworks */,
+				F54507B1A0F8BDA060D7C90F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63787266175DC8C200AA3C91 = {
+		94B6CA959BA4E0CA9E4D5201 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63787278175DC8C200AA3C91 /* HelloMapStoryboard */,
-				63787271175DC8C200AA3C91 /* Frameworks */,
-				63787270175DC8C200AA3C91 /* Products */,
+				9F2BDB243B140CE2ED1ABC72 /* Pods.debug.xcconfig */,
+				D8F1B613DAA9EBF4E7CD3237 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA9A0E961B7987500028C9C9 = {
+			isa = PBXGroup;
+			children = (
+				AA9A0EA11B7987500028C9C9 /* HelloMapStoryBoard */,
+				AA9A0EA01B7987500028C9C9 /* Products */,
+				94B6CA959BA4E0CA9E4D5201 /* Pods */,
+				FF7B41AFF194C7EF4FE6EE1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		63787270175DC8C200AA3C91 /* Products */ = {
+		AA9A0EA01B7987500028C9C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6378726F175DC8C200AA3C91 /* HelloMapStoryboard.app */,
+				AA9A0E9F1B7987500028C9C9 /* HelloMapStoryBoard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63787271175DC8C200AA3C91 /* Frameworks */ = {
+		AA9A0EA11B7987500028C9C9 /* HelloMapStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				637872AE175ECFA900AA3C91 /* SystemConfiguration.framework */,
-				637872AC175ECFA200AA3C91 /* QuartzCore.framework */,
-				637872AA175ECF9D00AA3C91 /* OpenGLES.framework */,
-				637872A8175ECF9600AA3C91 /* libz.dylib */,
-				637872A6175ECF9000AA3C91 /* libicucore.dylib */,
-				637872A4175ECF8700AA3C91 /* libc++.dylib */,
-				637872A2175ECF8000AA3C91 /* ImageIO.framework */,
-				637872A0175ECF7A00AA3C91 /* GLKit.framework */,
-				6378729A175ECF7400AA3C91 /* CoreData.framework */,
-				6378729B175ECF7400AA3C91 /* CoreLocation.framework */,
-				6378729C175ECF7400AA3C91 /* CoreText.framework */,
-				63787298175ECF5500AA3C91 /* AVFoundation.framework */,
-				63787272175DC8C200AA3C91 /* UIKit.framework */,
-				63787274175DC8C200AA3C91 /* Foundation.framework */,
-				63787276175DC8C200AA3C91 /* CoreGraphics.framework */,
+				AA9A0EA61B7987500028C9C9 /* HMSBAppDelegate.h */,
+				AA9A0EA71B7987500028C9C9 /* HMSBAppDelegate.m */,
+				AA9A0EA91B7987500028C9C9 /* HMSBViewController.h */,
+				AA9A0EAA1B7987500028C9C9 /* HMSBViewController.m */,
+				AA9A0EAC1B7987500028C9C9 /* Main.storyboard */,
+				AA9A0EAF1B7987500028C9C9 /* Images.xcassets */,
+				AA9A0EB11B7987500028C9C9 /* LaunchScreen.xib */,
+				AA9A0EA21B7987500028C9C9 /* Supporting Files */,
 			);
-			name = Frameworks;
+			path = HelloMapStoryBoard;
 			sourceTree = "<group>";
 		};
-		63787278175DC8C200AA3C91 /* HelloMapStoryboard */ = {
+		AA9A0EA21B7987500028C9C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				63787281175DC8C200AA3C91 /* HMSBAppDelegate.h */,
-				63787282175DC8C200AA3C91 /* HMSBAppDelegate.m */,
-				6378728A175DC8C200AA3C91 /* MainStoryboard_iPhone.storyboard */,
-				6378728D175DC8C200AA3C91 /* MainStoryboard_iPad.storyboard */,
-				63787290175DC8C200AA3C91 /* HMSBViewController.h */,
-				63787291175DC8C200AA3C91 /* HMSBViewController.m */,
-				63787279175DC8C200AA3C91 /* Supporting Files */,
-			);
-			path = HelloMapStoryboard;
-			sourceTree = "<group>";
-		};
-		63787279175DC8C200AA3C91 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6378727A175DC8C200AA3C91 /* HelloMapStoryboard-Info.plist */,
-				6378727B175DC8C200AA3C91 /* InfoPlist.strings */,
-				6378727E175DC8C200AA3C91 /* main.m */,
-				63787280175DC8C200AA3C91 /* HelloMapStoryboard-Prefix.pch */,
-				63787284175DC8C200AA3C91 /* Default.png */,
-				63787286175DC8C200AA3C91 /* Default@2x.png */,
-				63787288175DC8C200AA3C91 /* Default-568h@2x.png */,
+				AA9A0EA31B7987500028C9C9 /* Info.plist */,
+				AA9A0EA41B7987500028C9C9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF7B41AFF194C7EF4FE6EE1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94BE4F6BB488D58CDAA37E11 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6378726E175DC8C200AA3C91 /* HelloMapStoryboard */ = {
+		AA9A0E9E1B7987500028C9C9 /* HelloMapStoryBoard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63787295175DC8C200AA3C91 /* Build configuration list for PBXNativeTarget "HelloMapStoryboard" */;
+			buildConfigurationList = AA9A0EC21B7987500028C9C9 /* Build configuration list for PBXNativeTarget "HelloMapStoryBoard" */;
 			buildPhases = (
-				6378726B175DC8C200AA3C91 /* Sources */,
-				6378726C175DC8C200AA3C91 /* Frameworks */,
-				6378726D175DC8C200AA3C91 /* Resources */,
+				2C5720DF412FE64E20A7A550 /* Check Pods Manifest.lock */,
+				AA9A0E9B1B7987500028C9C9 /* Sources */,
+				AA9A0E9C1B7987500028C9C9 /* Frameworks */,
+				AA9A0E9D1B7987500028C9C9 /* Resources */,
+				953B6EB37E67A8567EECDC1F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HelloMapStoryboard;
-			productName = HelloMapStoryboard;
-			productReference = 6378726F175DC8C200AA3C91 /* HelloMapStoryboard.app */;
+			name = HelloMapStoryBoard;
+			productName = HelloMapStoryBoard;
+			productReference = AA9A0E9F1B7987500028C9C9 /* HelloMapStoryBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63787267175DC8C200AA3C91 /* Project object */ = {
+		AA9A0E971B7987500028C9C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HMSB;
-				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = Example;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Brett Morgan";
+				TargetAttributes = {
+					AA9A0E9E1B7987500028C9C9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
 			};
-			buildConfigurationList = 6378726A175DC8C200AA3C91 /* Build configuration list for PBXProject "HelloMapStoryboard" */;
+			buildConfigurationList = AA9A0E9A1B7987500028C9C9 /* Build configuration list for PBXProject "HelloMapStoryBoard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 63787266175DC8C200AA3C91;
-			productRefGroup = 63787270175DC8C200AA3C91 /* Products */;
+			mainGroup = AA9A0E961B7987500028C9C9;
+			productRefGroup = AA9A0EA01B7987500028C9C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6378726E175DC8C200AA3C91 /* HelloMapStoryboard */,
+				AA9A0E9E1B7987500028C9C9 /* HelloMapStoryBoard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6378726D175DC8C200AA3C91 /* Resources */ = {
+		AA9A0E9D1B7987500028C9C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6378727D175DC8C200AA3C91 /* InfoPlist.strings in Resources */,
-				63787285175DC8C200AA3C91 /* Default.png in Resources */,
-				63787287175DC8C200AA3C91 /* Default@2x.png in Resources */,
-				63787289175DC8C200AA3C91 /* Default-568h@2x.png in Resources */,
-				6378728C175DC8C200AA3C91 /* MainStoryboard_iPhone.storyboard in Resources */,
-				6378728F175DC8C200AA3C91 /* MainStoryboard_iPad.storyboard in Resources */,
+				AA9A0EAE1B7987500028C9C9 /* Main.storyboard in Resources */,
+				AA9A0EB31B7987500028C9C9 /* LaunchScreen.xib in Resources */,
+				AA9A0EB01B7987500028C9C9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C5720DF412FE64E20A7A550 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		953B6EB37E67A8567EECDC1F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6378726B175DC8C200AA3C91 /* Sources */ = {
+		AA9A0E9B1B7987500028C9C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6378727F175DC8C200AA3C91 /* main.m in Sources */,
-				63787283175DC8C200AA3C91 /* HMSBAppDelegate.m in Sources */,
-				63787292175DC8C200AA3C91 /* HMSBViewController.m in Sources */,
+				AA9A0EAB1B7987500028C9C9 /* HMSBViewController.m in Sources */,
+				AA9A0EA81B7987500028C9C9 /* HMSBAppDelegate.m in Sources */,
+				AA9A0EA51B7987500028C9C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6378727B175DC8C200AA3C91 /* InfoPlist.strings */ = {
+		AA9A0EAC1B7987500028C9C9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6378727C175DC8C200AA3C91 /* en */,
+				AA9A0EAD1B7987500028C9C9 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6378728A175DC8C200AA3C91 /* MainStoryboard_iPhone.storyboard */ = {
+		AA9A0EB11B7987500028C9C9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6378728B175DC8C200AA3C91 /* en */,
+				AA9A0EB21B7987500028C9C9 /* Base */,
 			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6378728D175DC8C200AA3C91 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6378728E175DC8C200AA3C91 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		63787293175DC8C200AA3C91 /* Debug */ = {
+		AA9A0EC01B7987500028C9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		63787294175DC8C200AA3C91 /* Release */ = {
+		AA9A0EC11B7987500028C9C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		63787296175DC8C200AA3C91 /* Debug */ = {
+		AA9A0EC31B7987500028C9C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2BDB243B140CE2ED1ABC72 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = armv7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloMapStoryboard/HelloMapStoryboard-Prefix.pch";
-				INFOPLIST_FILE = "HelloMapStoryboard/HelloMapStoryboard-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMapStoryBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		63787297175DC8C200AA3C91 /* Release */ = {
+		AA9A0EC41B7987500028C9C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F1B613DAA9EBF4E7CD3237 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ARCHS = armv7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloMapStoryboard/HelloMapStoryboard-Prefix.pch";
-				INFOPLIST_FILE = "HelloMapStoryboard/HelloMapStoryboard-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMapStoryBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6378726A175DC8C200AA3C91 /* Build configuration list for PBXProject "HelloMapStoryboard" */ = {
+		AA9A0E9A1B7987500028C9C9 /* Build configuration list for PBXProject "HelloMapStoryBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63787293175DC8C200AA3C91 /* Debug */,
-				63787294175DC8C200AA3C91 /* Release */,
+				AA9A0EC01B7987500028C9C9 /* Debug */,
+				AA9A0EC11B7987500028C9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63787295175DC8C200AA3C91 /* Build configuration list for PBXNativeTarget "HelloMapStoryboard" */ = {
+		AA9A0EC21B7987500028C9C9 /* Build configuration list for PBXNativeTarget "HelloMapStoryBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63787296175DC8C200AA3C91 /* Debug */,
-				63787297175DC8C200AA3C91 /* Release */,
+				AA9A0EC31B7987500028C9C9 /* Debug */,
+				AA9A0EC41B7987500028C9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63787267175DC8C200AA3C91 /* Project object */;
+	rootObject = AA9A0E971B7987500028C9C9 /* Project object */;
 }

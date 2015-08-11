@@ -1,5 +1,5 @@
 #import "HMSBViewController.h"
-#import <GoogleMaps/GoogleMaps.h>
+@import GoogleMaps;
 
 @interface HMSBViewController ()
 @end
