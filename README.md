@@ -11,7 +11,7 @@ A quick way to get started with the [Google Maps SDK for iOS](https://developers
 
 # Requirements
 
-* Latest version of XCode - download from https://developer.apple.com/xcode/.
+* Latest version of XCode - download from https://developer.apple.com/xcode/. ![Analytics](https://maps-ga-beacon.appspot.com/UA-12846745-20/hellomap-ios/readme?pixel)
 
 * The Google Maps SDK for iOS - download from https://developers.google.com/maps/documentation/ios/start.
 
